@@ -1,5 +1,4 @@
 import React from "react";
-import { axiosInstance } from "../../utils/axiosInstance";
 import { Button } from 'primereact/button';
 
 class SubmitButton extends React.Component {
@@ -7,7 +6,7 @@ class SubmitButton extends React.Component {
         const {onClick} = this.props;
 
         return (
-            <Button className="buttons" label="주문하기" variant="primary" onClick={()=> onClick()}/>
+            <Button className="margin-horizontal" label="주문하기" variant="primary" onClick={()=> onClick()}/>
         );
     }
 }

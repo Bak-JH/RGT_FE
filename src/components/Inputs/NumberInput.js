@@ -8,6 +8,7 @@ class NumberInput extends React.Component {
             <>
                 <InputNumber 
                     name="amount"
+                    className="centered-input margin-horizontal"
                     value={defaultValue}
                     onValueChange={(e)=>{ onChangeEvent(e);}}
                     showButtons 

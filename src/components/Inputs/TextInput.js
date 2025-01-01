@@ -8,9 +8,11 @@ class TextInput extends React.Component {
         return (
             <>
                 <InputText 
-                    name="name" 
-                    defaultValue={defaultValue} 
-                    keyfilter={/^[a-zA-Z0-9가-힣]*$/} 
+                    id="text"
+                    name="name"
+                    className="margin-horizontal"
+                    defaultValue={defaultValue}
+                    keyfilter={/^[a-zA-Z0-9가-힣]*$/}
                     onChange={(e)=> onChangeEvent(e)}
                 />
             </>

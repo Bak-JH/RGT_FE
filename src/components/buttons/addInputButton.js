@@ -6,7 +6,7 @@ class AddInputButton extends React.Component {
         const {onClick} = this.props;
 
         return (
-            <Button className="buttons" label="메뉴 추가" severity="secondary" onClick={()=> onClick()}/>
+            <Button className="margin-horizontal" label="메뉴 추가" severity="secondary" onClick={()=> onClick()}/>
         );
     }
 }
